@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mobilne/screens/bar_code_screen.dart';
-import 'package:mobilne/screens/home_screen.dart';
-import 'package:mobilne/screens/search_screen.dart';
+import 'package:mobilne/screens/radnici/bar_code_screen.dart';
+import 'package:mobilne/screens/radnici/home_screen.dart';
+import 'package:mobilne/screens/radnici/search_screen.dart';
 
 class Navbar extends StatefulWidget{
   const Navbar({super.key});
