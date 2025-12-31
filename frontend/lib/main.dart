@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mobilne/widgets/navbar.dart';
+
+import 'widgets/navbar.dart';
 
 void main() {
   runApp(
