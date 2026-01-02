@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 from fastapi import FastAPI
 from app.routers import auth
 
@@ -7,4 +9,4 @@ app = FastAPI(title ="SelektTim API")
 def root():
     return {"status" : "API is running"} #Root endpoint odgovor
 
-app.include_router(auth.router) #Ukljucivanje auth router-a
+app.include_router(auth.router) #Uključivanje auth rutera u glavnu aplikaciju
